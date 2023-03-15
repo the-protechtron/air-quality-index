@@ -1,0 +1,13 @@
+body{
+    background: black;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+#lat,#lon,#statecode,#aqi{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
