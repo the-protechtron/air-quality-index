@@ -1,3 +1,7 @@
+let lon= 77.586;
+let lat=23.545;
+let url='https://air-quality.p.rapidapi.com/current/airquality?lon='+lon+'&lat='+lat;
+
 const options = {
 	method: 'GET',
 	headers: {
@@ -6,7 +10,7 @@ const options = {
 	}
 };
 
-fetch('https://air-quality.p.rapidapi.com/current/airquality?lon=-73.00597&lat=40.71427', options)
+fetch(url, options)
 	.then(response => response.json())
 	.then(response => {
         console.log(response);
@@ -15,7 +19,7 @@ fetch('https://air-quality.p.rapidapi.com/current/airquality?lon=-73.00597&lat=4
        document.getElementById('lat').innerHTML = response.lat;
        document.getElementById('lon').innerHTML = response.lon;
        document.getElementById('statecode').innerHTML = response.state_code;
-	   document.getElementById('aqi').innerHTML = response.aqi;
+	   document.getElementById('aqi').innerHTML = response.data[0].aqi
 	   
     })
 	.catch(err => console.error(err));
