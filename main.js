@@ -5,7 +5,7 @@ let url='https://air-quality.p.rapidapi.com/current/airquality?lon='+lon+'&lat='
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': '33ddda4338mshef98b954dd9c696p1b9280jsnff9a552ec975',
+		'X-RapidAPI-Key': '4e78e12dd5msh14b8fc2448f3114p195c0bjsn5a48ca48946d',
 		'X-RapidAPI-Host': 'air-quality.p.rapidapi.com'
 	}
 };
