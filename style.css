@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #6a2c70;
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9ed69;
+    height: 70vh;
+    align-content: center;
+}
+h1{
+    font-family: sans-serif;
+
+    text-align: center;
+}
+
+.container{
+    margin-top: 125px;
+    max-width:700px;
+    width: 100%;
+    background: #b83b5e;
+    padding: 25px 30px;
+    border-radius: 5px;
+    border-style: solid ;
+    border-color: #f08a5d;
+    align-content: center;
+    
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.container form .entry-det{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.button-container{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    text-align: center;
+}
+
+form .entry-det .input-box{
+    width: calc(100%);
+    margin-bottom: 15px;
+}
+.entry-det .input-box #city-name{
+    display: flex;
+    font-weight: 500;    
+    margin-bottom: 5px;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+}
+.entry-det .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+    
+}
+.mega{
+    display:block;
+}
+
+
+    
+#clickme{
+    background-color: #f9ed69;
+    color: black;
+    border-color: #f08a5d;
+    border-style: solid;
+    border-radius: 5px;
+}
+     
+#aqi{
+    color:black;
+    font-weight: 600;
+}
+
+.details{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.details.flex3{
+    margin-left: 10px;
+    
+}
+.details .flex2{
+    padding-left: 15px;
+    color: white;
+    text-align: left;
+}
+.details .flex1{
+    margin-right: 20px;
+}
+
